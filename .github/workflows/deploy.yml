@@ -1,4 +1,4 @@
-name: Deploy Bootstrap-portofolio-Sass
+name: Deploy Bootstrap-portofolio-Sass-main
  
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          repository: YaMe09/Bootstrap-portfolio-Sass
+          repository: YaMe09/Bootstrap-portfolio-Sass-main
  
       - name: Install Dependencies
         run: npm install || echo "No dependencies to install"
